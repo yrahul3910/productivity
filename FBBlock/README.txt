@@ -1,0 +1,1 @@
+This feature lets the user block commonly used social network sites or any website chosen by modifying the hosts file.
