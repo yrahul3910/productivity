@@ -56,6 +56,7 @@ Partial Class AllEntries
         '
         'MultiLineListBox1
         '
+        Me.MultiLineListBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.MultiLineListBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable
         Me.MultiLineListBox1.Font = New System.Drawing.Font("Segoe UI Semilight", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MultiLineListBox1.FormattingEnabled = True
@@ -67,12 +68,13 @@ Partial Class AllEntries
         '
         'OpenFileDialog1
         '
-        Me.OpenFileDialog1.Filter = "Journal Files | *.journal"
+        Me.OpenFileDialog1.Filter = "Journal Files (.journal)|*.journal|Productivity 4.0 Journal Files (.journalx)|*.j" &
+    "ournalx"
         Me.OpenFileDialog1.Title = "Choose Location"
         '
         'SaveFileDialog1
         '
-        Me.SaveFileDialog1.Filter = "Journal Files | *.journal"
+        Me.SaveFileDialog1.Filter = "Productivity 4.0 Journal Files (.journalx)| *.journalx"
         Me.SaveFileDialog1.Title = "Choose Location"
         '
         'TextBox1

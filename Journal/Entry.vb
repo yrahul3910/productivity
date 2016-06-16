@@ -1,5 +1,4 @@
-﻿Imports System.Xml
-Imports System.Xml.Serialization
+﻿Imports System.Xml.Serialization
 <XmlRoot("Entry")>
 Public Class Entry
     <XmlAttribute("entryDate")>

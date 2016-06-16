@@ -17,7 +17,7 @@
             Dim item = MultiLineListBox1.SelectedItem
             Dim c As String = SplitToLines(item).ElementAt(0)
             Dim d As Date = CDate(c)
-            For Each en As Entry In AllEntries.entries
+            For Each en As Entry In AllEntries.journal.en
                 If en.entryDate = d Then
                     Form1.Show()
                     Form1.DateTimePicker1.Value = d

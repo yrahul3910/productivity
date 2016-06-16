@@ -31,6 +31,7 @@ Partial Class Form1
         Me.AddEntryToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.UpdateEntryToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AttachmentsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EventsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -73,7 +74,7 @@ Partial Class Form1
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EntryToolStripMenuItem, Me.AttachmentsToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EntryToolStripMenuItem, Me.AttachmentsToolStripMenuItem, Me.EventsToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(409, 24)
@@ -104,6 +105,12 @@ Partial Class Form1
         Me.AttachmentsToolStripMenuItem.Name = "AttachmentsToolStripMenuItem"
         Me.AttachmentsToolStripMenuItem.Size = New System.Drawing.Size(87, 20)
         Me.AttachmentsToolStripMenuItem.Text = "Attachments"
+        '
+        'EventsToolStripMenuItem
+        '
+        Me.EventsToolStripMenuItem.Name = "EventsToolStripMenuItem"
+        Me.EventsToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
+        Me.EventsToolStripMenuItem.Text = "Events"
         '
         'Form1
         '
@@ -137,5 +144,5 @@ Partial Class Form1
     Friend WithEvents AddEntryToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents UpdateEntryToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AttachmentsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-
+    Friend WithEvents EventsToolStripMenuItem As ToolStripMenuItem
 End Class
