@@ -29,9 +29,6 @@ Partial Class Form1
         Me.Label2 = New System.Windows.Forms.Label()
         Me.lblTimeLeft = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.TelerikMetroTheme1 = New Telerik.WinControls.Themes.TelerikMetroTheme()
-        Me.Office2013LightTheme1 = New Telerik.WinControls.Themes.Office2013LightTheme()
-        Me.Windows8Theme1 = New Telerik.WinControls.Themes.Windows8Theme()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
@@ -316,9 +313,6 @@ Partial Class Form1
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents lblTimeLeft As System.Windows.Forms.Label
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
-    Friend WithEvents TelerikMetroTheme1 As Telerik.WinControls.Themes.TelerikMetroTheme
-    Friend WithEvents Office2013LightTheme1 As Telerik.WinControls.Themes.Office2013LightTheme
-    Friend WithEvents Windows8Theme1 As Telerik.WinControls.Themes.Windows8Theme
     Friend WithEvents OpenFileDialog1 As System.Windows.Forms.OpenFileDialog
     Friend WithEvents TabControl1 As TabControl
     Friend WithEvents TabPage1 As TabPage
